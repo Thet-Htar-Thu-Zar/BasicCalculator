@@ -46,6 +46,7 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "6";
 
         }
+
         private void btnOne_Click(object sender, EventArgs e)
         {
             txtResult.Text += "1";
@@ -57,26 +58,31 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "2";
 
         }
+
         private void btnThree_Click(object sender, EventArgs e)
         {
             txtResult.Text += "3";
 
         }
+
         private void btnZero_Click(object sender, EventArgs e)
         {
             txtResult.Text += "0";
 
         }
+
         private void btnDecimal_Click(object sender, EventArgs e)
         {
             txtResult.Text += ".";
 
         }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             txtResult.Text += "+";
 
         }
+
         private void btnSubstract_Click(object sender, EventArgs e)
         {
             txtResult.Text += "-";
@@ -87,16 +93,19 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "*";
 
         }
+
         private void btnDivision_Click(object sender, EventArgs e)
         {
             txtResult.Text += "/";
 
         }
+
         private void btnRemainderDivision_Click(object sender, EventArgs e)
         {
             txtResult.Text += "%";
 
         }
+
         private void btnSquare_Click(object sender, EventArgs e)
         {
             try
@@ -109,6 +118,7 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
+
         private void btnCube_Click(object sender, EventArgs e)
         {
             try
@@ -121,6 +131,7 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
+
         private void btnSquareRoot_Click(object sender, EventArgs e)
         {
             try
@@ -133,6 +144,7 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
+
         private void btnCubeRoot_Click(object sender, EventArgs e)
         {
             try
@@ -145,6 +157,7 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
+
         private void btnEqual_Click(object sender, EventArgs e)
         {
             try
@@ -157,6 +170,7 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
+
         private void btnRemoveLastInput_Click(object sender, EventArgs e)
         {
             if (txtResult.Text.Length > 0)
@@ -169,9 +183,11 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
+
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtResult.Clear();
         }
+
     }
 }
