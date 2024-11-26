@@ -58,7 +58,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "2";
 
         }
-
         private void btnThree_Click(object sender, EventArgs e)
         {
             txtResult.Text += "3";
