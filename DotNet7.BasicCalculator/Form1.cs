@@ -76,7 +76,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += ".";
 
         }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
             txtResult.Text += "+";
