@@ -145,7 +145,6 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
-
         private void btnCubeRoot_Click(object sender, EventArgs e)
         {
             try
