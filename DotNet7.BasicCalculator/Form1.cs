@@ -171,7 +171,6 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
-
         private void btnRemoveLastInput_Click(object sender, EventArgs e)
         {
             if (txtResult.Text.Length > 0)
