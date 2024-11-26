@@ -106,7 +106,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "%";
 
         }
-
         private void btnSquare_Click(object sender, EventArgs e)
         {
             try
