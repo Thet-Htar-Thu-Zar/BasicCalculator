@@ -82,7 +82,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "+";
 
         }
-
         private void btnSubstract_Click(object sender, EventArgs e)
         {
             txtResult.Text += "-";
