@@ -64,7 +64,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "3";
 
         }
-
         private void btnZero_Click(object sender, EventArgs e)
         {
             txtResult.Text += "0";
