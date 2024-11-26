@@ -70,7 +70,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "0";
 
         }
-
         private void btnDecimal_Click(object sender, EventArgs e)
         {
             txtResult.Text += ".";
