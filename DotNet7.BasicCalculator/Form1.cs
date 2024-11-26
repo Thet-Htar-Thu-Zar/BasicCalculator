@@ -46,7 +46,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "6";
 
         }
-
         private void btnOne_Click(object sender, EventArgs e)
         {
             txtResult.Text += "1";
