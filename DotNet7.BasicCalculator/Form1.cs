@@ -158,7 +158,6 @@ namespace DotNet7.BasicCalculator
                 MessageBox.Show("Invalid Expression");
             }
         }
-
         private void btnEqual_Click(object sender, EventArgs e)
         {
             try
