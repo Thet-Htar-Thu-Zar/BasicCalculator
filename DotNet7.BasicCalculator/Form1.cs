@@ -100,7 +100,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "/";
 
         }
-
         private void btnRemainderDivision_Click(object sender, EventArgs e)
         {
             txtResult.Text += "%";
