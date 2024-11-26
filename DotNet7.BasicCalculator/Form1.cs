@@ -88,7 +88,6 @@ namespace DotNet7.BasicCalculator
             txtResult.Text += "-";
 
         }
-
         private void btnMuliple_Click(object sender, EventArgs e)
         {
             txtResult.Text += "*";
